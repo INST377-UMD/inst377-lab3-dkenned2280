@@ -8,9 +8,10 @@ body {
 .page-header-footer {
     background-color: blueviolet;
     color: white;
+    clear: both;
     text-align: center;
     padding: 10px;
-    margin: 0;
+    margin: 10px;
 }
 
 .main-nav ul li {
@@ -42,34 +43,28 @@ width: 100%;
 width:60%;
 background-color: white;
 padding: 10px;
-margin: 0;
+float: left;
+margin: 10px;
 
 }
 
 .sidebar{
-width: 25% ;
+width: 30% ;
 background-color:plum;
 padding: 10x;
+float: right ;
 margin-right: 10px;
 margin-bottom: 10px;
 
 }
 
-.sidebar hover{
+.sidebar:hover{
 
 background-color: powderblue;
 }
 
-.button{
-background-color: aquamarine;
-color: white;
-padding: 20px 10px;
-border: none;
-
-}
-
-.button hover{
-background-color: blueviolet;
+#PlayerName:focus {
+width: 50%;
 
 }
 
